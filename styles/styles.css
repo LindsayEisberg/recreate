@@ -7,6 +7,10 @@ ul {
   margin: 0;
   list-style-type: none; }
 
+.wrapper {
+  width: 1300px;
+  margin: auto; }
+
 nav {
   background: #f5f5f5;
   width: 100%;
@@ -25,14 +29,16 @@ aside, section {
   display: inline-block; }
 
 aside {
-  width: 30%;
+  width: 35%;
   margin-top: 10px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  margin-right: 10px; }
   aside img {
     width: 300px; }
 
 section {
-  width: 65%; }
+  width: 50%;
+  margin-left: 45px; }
   section li {
     display: inline-block; }
     section li a {
@@ -41,3 +47,16 @@ section {
       color: #4183c4; }
       section li a:hover {
         text-decoration: underline; }
+
+.gravatar img {
+  width: 30px; }
+
+.activity, .repo {
+  display: none; }
+
+.active {
+  display: inline-block; }
+
+.activeNav a {
+  color: #4183c4;
+  text-decoration: underline; }

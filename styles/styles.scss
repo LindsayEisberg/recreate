@@ -14,7 +14,10 @@ ul {
   list-style-type: none;
 }
 
-
+.wrapper {
+  width: 1300px;
+  margin: auto;
+}
 //NAV//
 nav {
   background: $header-color;
@@ -40,20 +43,22 @@ nav {
 
 aside, section {
   vertical-align: top;
-  display: inline-block
+  display: inline-block;
 }
 
 aside {
-  width: 30%;
+  width: 35%;
   margin-top: 10px;
   margin-left: 15px;
+  margin-right: 10px;
    img {
     width: 300px;
   }
 }
 
 section {
-  width: 65%;
+  width: 50%;
+  margin-left: 45px;
 
 
 li {
@@ -68,4 +73,27 @@ li {
 
   }
 }
+}
+
+
+//PUBLIC ACTIVITY//
+.gravatar img{
+  width: 30px;
+}
+
+
+//JQUERY DISPLAY//
+.activity, .repo {
+  display: none;
+}
+
+.active {
+  display: inline-block;
+}
+
+
+
+.activeNav a {
+  color: $link-color;
+  text-decoration: underline;
 }
