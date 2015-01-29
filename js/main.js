@@ -4,7 +4,7 @@ var profilePage = {
     profilePage.initStyling();
     profilePage.initEvents();
     profilePage.renderAllRepos(repoActivity);
-    profilePage.renderAllEvents(events);
+    profilePage.renderEvent(events);
 
   },
 
@@ -37,17 +37,14 @@ var profilePage = {
     _.each(repoInfo, profilePage.renderRepo);
   },
 
-  renderEvent: function (myActivity, index, array) {
-    myActivity.idx = index;
+  renderEvent: function (element, index, array) {
+    element.idx = index;
     var eventContent = _.template(templates.activity);
-    $('.activity').append(eventContent(myActivity));
+    $('.activity').append(eventContent(element));
 
   },
 
-  renderAllEvents: function(eventInfo) {
-    _.each(eventInfo, profilePage.renderEvent);
 
-  }
 
 };
 
