@@ -1,4 +1,178 @@
-[
+var activity = [
+{
+  "id": "2541064134",
+  "type": "PushEvent",
+  "actor": {
+    "id": 8022632,
+    "login": "LindsayEisberg",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LindsayEisberg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
+  },
+  "repo": {
+    "id": 29943869,
+    "name": "LindsayEisberg/recreate",
+    "url": "https://api.github.com/repos/LindsayEisberg/recreate"
+  },
+  "payload": {
+    "push_id": 558084235,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "ec3007e963f83eed34640d5037c81fdba7f4d9cb",
+    "before": "432a90d721d81291235a20ffabf257e260a0e982",
+    "commits": [
+    {
+      "sha": "ec3007e963f83eed34640d5037c81fdba7f4d9cb",
+      "author": {
+        "email": "lindsay.eisberg@gmail.com",
+        "name": "Lindsay Eisberg"
+      },
+      "message": "added splice info",
+      "distinct": true,
+      "url": "https://api.github.com/repos/LindsayEisberg/recreate/commits/ec3007e963f83eed34640d5037c81fdba7f4d9cb"
+    }
+    ]
+  },
+  "public": true,
+  "created_at": "2015-01-28T03:35:38Z"
+},
+{
+  "id": "2540865875",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 8022632,
+    "login": "LindsayEisberg",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LindsayEisberg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
+  },
+  "repo": {
+    "id": 29943869,
+    "name": "LindsayEisberg/recreate",
+    "url": "https://api.github.com/repos/LindsayEisberg/recreate"
+  },
+  "payload": {
+    "ref": "master",
+    "ref_type": "branch",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-28T01:13:55Z"
+},
+{
+  "id": "2540863989",
+  "type": "CreateEvent",
+  "actor": {
+    "id": 8022632,
+    "login": "LindsayEisberg",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LindsayEisberg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
+  },
+  "repo": {
+    "id": 29943869,
+    "name": "LindsayEisberg/recreate",
+    "url": "https://api.github.com/repos/LindsayEisberg/recreate"
+  },
+  "payload": {
+    "ref": null,
+    "ref_type": "repository",
+    "master_branch": "master",
+    "description": "",
+    "pusher_type": "user"
+  },
+  "public": true,
+  "created_at": "2015-01-28T01:12:48Z"
+},
+{
+  "id": "2540855018",
+  "type": "PushEvent",
+  "actor": {
+    "id": 8022632,
+    "login": "LindsayEisberg",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LindsayEisberg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
+  },
+  "repo": {
+    "id": 29876088,
+    "name": "LindsayEisberg/productPageHW",
+    "url": "https://api.github.com/repos/LindsayEisberg/productPageHW"
+  },
+  "payload": {
+    "push_id": 558000556,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/master",
+    "head": "76594824c4080849bd582aebb124fe3847083001",
+    "before": "64b2178cba1087afe7ae61cd0d59ef4efe7dd5e7",
+    "commits": [
+    {
+      "sha": "76594824c4080849bd582aebb124fe3847083001",
+      "author": {
+        "email": "lindsay.eisberg@gmail.com",
+        "name": "Lindsay Eisberg"
+      },
+      "message": "debugging the U",
+      "distinct": true,
+      "url": "https://api.github.com/repos/LindsayEisberg/productPageHW/commits/76594824c4080849bd582aebb124fe3847083001"
+    }
+    ]
+  },
+  "public": true,
+  "created_at": "2015-01-28T01:07:12Z"
+},
+{
+  "id": "2540665835",
+  "type": "PushEvent",
+  "actor": {
+    "id": 8022632,
+    "login": "LindsayEisberg",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LindsayEisberg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
+  },
+  "repo": {
+    "id": 29876088,
+    "name": "LindsayEisberg/productPageHW",
+    "url": "https://api.github.com/repos/LindsayEisberg/productPageHW"
+  },
+  "payload": {
+    "push_id": 557925840,
+    "size": 2,
+    "distinct_size": 2,
+    "ref": "refs/heads/master",
+    "head": "64b2178cba1087afe7ae61cd0d59ef4efe7dd5e7",
+    "before": "38ef6688c299eb4cd5b1ec630bf55dd63f35c0f8",
+    "commits": [
+    {
+      "sha": "ce64213caa733ed4473548b4c0793b9d6810fb12",
+      "author": {
+        "email": "lindsay.eisberg@gmail.com",
+        "name": "Lindsay Eisberg"
+      },
+      "message": "adding styling to page",
+      "distinct": true,
+      "url": "https://api.github.com/repos/LindsayEisberg/productPageHW/commits/ce64213caa733ed4473548b4c0793b9d6810fb12"
+    },
+    {
+      "sha": "64b2178cba1087afe7ae61cd0d59ef4efe7dd5e7",
+      "author": {
+        "email": "lindsay.eisberg@gmail.com",
+        "name": "Lindsay Eisberg"
+      },
+      "message": "CRUD",
+      "distinct": true,
+      "url": "https://api.github.com/repos/LindsayEisberg/productPageHW/commits/64b2178cba1087afe7ae61cd0d59ef4efe7dd5e7"
+    }
+    ]
+  },
+  "public": true,
+  "created_at": "2015-01-27T23:23:26Z"
+},
 {
   "id": "2537341295",
   "type": "PushEvent",
@@ -894,205 +1068,5 @@
   },
   "public": true,
   "created_at": "2015-01-19T21:18:51Z"
-},
-{
-  "id": "2522012066",
-  "type": "PushEvent",
-  "actor": {
-    "id": 8022632,
-    "login": "LindsayEisberg",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/LindsayEisberg",
-    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
-  },
-  "repo": {
-    "id": 29315426,
-    "name": "LindsayEisberg/powellPeraltaSkateSite",
-    "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite"
-  },
-  "payload": {
-    "push_id": 550270596,
-    "size": 1,
-    "distinct_size": 1,
-    "ref": "refs/heads/master",
-    "head": "dae022e4ea1f55ddf4d8aedea8db041cb9761af1",
-    "before": "323d59a53328e1f9122f2215be71594d1ae901fc",
-    "commits": [
-    {
-      "sha": "dae022e4ea1f55ddf4d8aedea8db041cb9761af1",
-      "author": {
-        "email": "lindsay.eisberg@gmail.com",
-        "name": "Lindsay Eisberg"
-      },
-      "message": "skater alignment",
-      "distinct": true,
-      "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite/commits/dae022e4ea1f55ddf4d8aedea8db041cb9761af1"
-    }
-    ]
-  },
-  "public": true,
-  "created_at": "2015-01-19T18:37:56Z"
-},
-{
-  "id": "2520332271",
-  "type": "PushEvent",
-  "actor": {
-    "id": 8022632,
-    "login": "LindsayEisberg",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/LindsayEisberg",
-    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
-  },
-  "repo": {
-    "id": 29315426,
-    "name": "LindsayEisberg/powellPeraltaSkateSite",
-    "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite"
-  },
-  "payload": {
-    "push_id": 549580441,
-    "size": 1,
-    "distinct_size": 1,
-    "ref": "refs/heads/master",
-    "head": "323d59a53328e1f9122f2215be71594d1ae901fc",
-    "before": "d63612bb562fc157b66b89b7b2f1bf0ee9373b00",
-    "commits": [
-    {
-      "sha": "323d59a53328e1f9122f2215be71594d1ae901fc",
-      "author": {
-        "email": "lindsay.eisberg@gmail.com",
-        "name": "Lindsay Eisberg"
-      },
-      "message": "added boards and posts sections",
-      "distinct": true,
-      "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite/commits/323d59a53328e1f9122f2215be71594d1ae901fc"
-    }
-    ]
-  },
-  "public": true,
-  "created_at": "2015-01-19T00:27:11Z"
-},
-{
-  "id": "2520331899",
-  "type": "PushEvent",
-  "actor": {
-    "id": 8022632,
-    "login": "LindsayEisberg",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/LindsayEisberg",
-    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
-  },
-  "repo": {
-    "id": 29315073,
-    "name": "LindsayEisberg/adventureGame",
-    "url": "https://api.github.com/repos/LindsayEisberg/adventureGame"
-  },
-  "payload": {
-    "push_id": 549580267,
-    "size": 1,
-    "distinct_size": 1,
-    "ref": "refs/heads/master",
-    "head": "6d90c44c56547687945f35368e3b7112525005ad",
-    "before": "f64a9fe0e7c8c3a4621ef4c0c4e14442b36cbfb4",
-    "commits": [
-    {
-      "sha": "6d90c44c56547687945f35368e3b7112525005ad",
-      "author": {
-        "email": "lindsay.eisberg@gmail.com",
-        "name": "Lindsay Eisberg"
-      },
-      "message": "game complete",
-      "distinct": true,
-      "url": "https://api.github.com/repos/LindsayEisberg/adventureGame/commits/6d90c44c56547687945f35368e3b7112525005ad"
-    }
-    ]
-  },
-  "public": true,
-  "created_at": "2015-01-19T00:26:34Z"
-},
-{
-  "id": "2520174250",
-  "type": "PushEvent",
-  "actor": {
-    "id": 8022632,
-    "login": "LindsayEisberg",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/LindsayEisberg",
-    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
-  },
-  "repo": {
-    "id": 29315426,
-    "name": "LindsayEisberg/powellPeraltaSkateSite",
-    "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite"
-  },
-  "payload": {
-    "push_id": 549507319,
-    "size": 2,
-    "distinct_size": 2,
-    "ref": "refs/heads/master",
-    "head": "d63612bb562fc157b66b89b7b2f1bf0ee9373b00",
-    "before": "082995d3a5acf1f961ef30117fe285dce9de8664",
-    "commits": [
-    {
-      "sha": "c45d37f0c29f77c84d14a92b43b0f53e3135a12c",
-      "author": {
-        "email": "lindsay.eisberg@gmail.com",
-        "name": "Lindsay Eisberg"
-      },
-      "message": "nav and social media bar complete",
-      "distinct": true,
-      "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite/commits/c45d37f0c29f77c84d14a92b43b0f53e3135a12c"
-    },
-    {
-      "sha": "d63612bb562fc157b66b89b7b2f1bf0ee9373b00",
-      "author": {
-        "email": "lindsay.eisberg@gmail.com",
-        "name": "Lindsay Eisberg"
-      },
-      "message": "slider image added",
-      "distinct": true,
-      "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite/commits/d63612bb562fc157b66b89b7b2f1bf0ee9373b00"
-    }
-    ]
-  },
-  "public": true,
-  "created_at": "2015-01-18T20:48:19Z"
-},
-{
-  "id": "2519447277",
-  "type": "PushEvent",
-  "actor": {
-    "id": 8022632,
-    "login": "LindsayEisberg",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/LindsayEisberg",
-    "avatar_url": "https://avatars.githubusercontent.com/u/8022632?"
-  },
-  "repo": {
-    "id": 29315426,
-    "name": "LindsayEisberg/powellPeraltaSkateSite",
-    "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite"
-  },
-  "payload": {
-    "push_id": 549169362,
-    "size": 1,
-    "distinct_size": 1,
-    "ref": "refs/heads/master",
-    "head": "082995d3a5acf1f961ef30117fe285dce9de8664",
-    "before": "954b29c2f6974d9f55e8ccba49fc4c12a745f891",
-    "commits": [
-    {
-      "sha": "082995d3a5acf1f961ef30117fe285dce9de8664",
-      "author": {
-        "email": "lindsay.eisberg@gmail.com",
-        "name": "Lindsay Eisberg"
-      },
-      "message": "initial html layout and photos added",
-      "distinct": true,
-      "url": "https://api.github.com/repos/LindsayEisberg/powellPeraltaSkateSite/commits/082995d3a5acf1f961ef30117fe285dce9de8664"
-    }
-    ]
-  },
-  "public": true,
-  "created_at": "2015-01-17T22:25:35Z"
 }
 ];
