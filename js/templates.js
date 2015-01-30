@@ -54,17 +54,20 @@ templates.activity = [
 '<div class=gravatar><img src=<%= element.actor.avatar_url %> /></div>',
 '<p><%= element.payload.head.split("").splice(0,8).join("") %> <%= element.payload.commits[0].message %></p>',
 '</div>',
+'<% } else { %>',
+'<% if (element.payload.ref_type === "branch") { %>',
+'<div class=eventPost>',
+'<p><span class="octicon octicon-git-branch"></span><%= element.actor.login %></p> created branch <span class="octicon octicon-git-branch"></span><%= element.payload.ref %> at <%= element.repo.name %></p>',
+'</div>',
+'<% } else { %>',
+'<div class=eventPost>',
+'<p><span class="octicon octicon-repo"></span><%= element.actor.login %> created Repository <%= element.repo.name %></p>',
+'</div>',
 '<% } %>',
-'<% else if (element.type === "CreateEvent" && element.payload.ref_type === "branch") { %>'
-
-
-}'
+'<% } %>',
 
 '<% }); %>'
 
-"ref_type": "branch",
-
-"type": "CreateEvent",
 
 
 ].join("");
